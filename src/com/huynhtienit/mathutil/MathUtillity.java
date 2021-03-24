@@ -21,7 +21,7 @@ public class MathUtillity {
         if (n == 0 || n == 1)
             return 1; //0! = 1! = 1 tinh luon cho nhan
         //den doan nay sure n tu 2..20
-        long result = 0; //cố tình heng, lát tính tiếp
+        long result = 1; //cố tình heng, lát tính tiếp
         for (int i = 2; i <= n; i++) 
             result = result * i;
         return result;
